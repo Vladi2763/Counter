@@ -1,10 +1,10 @@
 import classes from './CountersList.module.css'
 import Counter from './components/Counter';
 import { useDispatch, useSelector } from 'react-redux';
-import { CountersDispatch, checkTimers } from './store/ActionCreators'
+import { CountersDispatch, checkTimers } from './store/counterActions'
 import { useEffect } from 'react';
 
-import { addCounter } from './store/ActionCreators';
+import { addCounter } from './store/counterActions';
 
 import { Counter as CounterType, State } from './store/counterReducer';
 

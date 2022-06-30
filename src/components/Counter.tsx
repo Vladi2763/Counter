@@ -1,7 +1,7 @@
 import classes from './Counter.module.css'
-import { increment } from '../store/ActionCreators'
-import { decrement } from '../store/ActionCreators'
-import { deleteCounter } from '../store/ActionCreators'
+import { increment } from '../store/counterActions'
+import { decrement } from '../store/counterActions'
+import { deleteCounter } from '../store/counterActions'
 
 import { useDispatch } from "react-redux"
 
@@ -34,7 +34,9 @@ const Counter: React.FC<{ index: number, counter: number }> = (props) => {
                 <button className={classes.increment} onClick={() => counterIncrementHandler(props.index)}>+</button>
                 <button className={classes.decrement} onClick={() => counterDecrementHandler(props.index)}>-</button>
             </div>}
-            {isButtonsAvailible && <div className={classes.clock} />}
+            {isButtonsAvailible && <div className={classes.clock}>
+            <img src='/assets/clock.svg' alt='clock' />
+                </div>}
         </div>
     )
 }

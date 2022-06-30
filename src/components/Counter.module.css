@@ -32,11 +32,11 @@
 }
 
 .clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 80px;
     height: 80px;
-    background-image: url('/images/clock.svg');
-    background-repeat: no-repeat;
-    background-position: center;
     border: 1px solid #C0C0C0;
     border-radius: 0px 8px 8px 0px;
 }

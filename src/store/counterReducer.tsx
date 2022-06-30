@@ -1,5 +1,5 @@
-import { Action } from "./ActionCreators"
-import { ActionType } from "./ActionCreators"
+import { Action } from "./counterActions"
+import { ActionType } from "./counterActions"
 
 export type Counter = {
   count: number
