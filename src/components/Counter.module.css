@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    width: 289px;
+    margin-bottom: 15px;
+}
+
+.buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttonsContainer button {
+    border: 1px solid #C0C0C0;
+    width: 80px;
+    height: 36px;
+    font-size: 30px;
+    background-color: white;
+}
+
+.increment {
+    color: #37D06B;
+    cursor: pointer;
+    border-radius: 0px 8px 0px 0px;
+}
+
+.decrement {
+    color: #F27072;
+    cursor: pointer;
+    border-radius: 0px 0px 8px 0px;
+
+}
+
+.clock {
+    width: 80px;
+    height: 80px;
+    background-image: url('/images/clock.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #C0C0C0;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    line-height: 45px;
+    color: #000000;
+    border: 1px solid #C0C0C0;
+    border-radius: 8px 0px 0px 8px;
+    margin-right: 8px;
+}
+
+.trash {
+    background: #F27072;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    border: none;
+    margin-right: 40px;
+}
+
+.trash img {
+    width: 40px;
+    height: 40px;
+}
